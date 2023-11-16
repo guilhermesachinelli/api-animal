@@ -1,5 +1,5 @@
 import { Router } from "express";
-import animalRouter from "./animal.routes";
+import animalRouter from "./animal.routes.js";
 const router = Router()
 router.use("/animal", animalRouter)
 router.get("/", (req, res) => {
